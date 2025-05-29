@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kattera Lakshmi Sai Sree - Full Project</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      display: flex;
+    }
+    nav {
+      background-color: #004d40;
+      width: 200px;
+      min-height: 100vh;
+      padding: 20px 0;
+      position: fixed;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-left: 0;
+      text-align: center;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      display: block;
+      padding: 10px;
+    }
+    nav ul li a:hover {
+      background-color: #00796b;
+      border-radius: 5px;
+    }
+    .container {
+      margin-left: 220px;
+      max-width: 1000px;
+      padding: 40px 20px;
+    }
+    h1, h2 {
+      color: #004d40;
+      margin-bottom: 10px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .project, .product, .todo {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: #e0f2f1;
+      color: #004d40;
+    }
+    input, select, button {
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    ul.todo-list, .product-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .product-item {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 20px auto;
+    }
+    .todo-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e0f2f1;
+      margin-bottom: 5px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .todo-item button {
+      background-color: #d32f2f;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#todo">To-Do App</a></li>
+      <li><a href="#products">Product Listing</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section id="portfolio" class="project">
+      <h1>Personal Portfolio</h1>
+      <img src="https://media.istockphoto.com/id/1249078123/photo/university-student-portrait-in-campus.jpg?s=612x612&w=0&k=20&c=ZX_O8I2ALFTi6-PR0gzLfH6HUYLNlMhOjZGccaq_cKA=" alt="Profile Picture" class="profile-pic">
+      <p><strong>Name:</strong> Kattera Lakshmi Sai Sree</p>
+      <p><strong>College:</strong> Tirumala Engineering College</p>
+      <p><strong>Internship:</strong> Apex planet Internship (45 days)</p>
+      <h2>About</h2>
+      <p>I am currently working on a Web development internship - HTML,CSS,JavaScript during my internship. Passionate about full-stack development and AI technologies.</p>
+      <p>I am a passionate 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫 𝐒𝐜𝐢𝐞𝐧𝐜𝐞 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 with a strong foundation in coding, logical reasoning, and communication skills. My curiosity drives me to explore innovative solutions and stay ahead in the tech world.
+     I have earned certifications from 𝐆𝐨𝐨𝐠𝐥𝐞 𝐂𝐥𝐨𝐮𝐝, 𝐈𝐧𝐟𝐨𝐬𝐲𝐬 𝐒𝐩𝐫𝐢𝐧𝐠𝐛𝐨𝐚𝐫𝐝, 𝐓𝐂𝐒 𝐢𝐎𝐍, 𝐈𝐁𝐌, 𝐞𝐝𝐗, 𝐚𝐧𝐝 𝐋𝐢𝐧𝐤𝐞𝐝𝐈𝐧 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠, strengthening my expertise in 𝐜𝐥𝐨𝐮𝐝 𝐜𝐨𝐦𝐩𝐮𝐭𝐢𝐧𝐠, 𝐬𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭, 𝐚𝐧𝐝 𝐞𝐦𝐞𝐫𝐠𝐢𝐧𝐠 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬.
+      Currently, I am actively exploring opportunities to apply 𝐦𝐲 𝐬𝐤𝐢𝐥𝐥𝐬, 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐞 𝐨𝐧 𝐢𝐦𝐩𝐚𝐜𝐭𝐟𝐮𝐥 𝐩𝐫𝐨𝐣𝐞𝐜𝐭𝐬, 𝐚𝐧𝐝 𝐜𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐞 𝐦𝐞𝐚𝐧𝐢𝐧𝐠𝐟𝐮𝐥𝐥𝐲 𝐭𝐨 𝐭𝐡𝐞 𝐢𝐧𝐝𝐮𝐬𝐭𝐫𝐲. I thrive in learning-driven environments, where I can expand my knowledge and refine my abilities.</p>
+      <h2>Projects</h2>
+      <ul>
+        <li>Portfilo website</li>
+        <li>Aws-serverless image generation </li>
+        <li>JavaScript Apps with Local Storage</li>
+      </ul>
+      <h2>Contact</h2>
+      <p>Email: lakshmisaisreek@gmail.com</p>
+      <p>LinkedIn:https://www.linkedin.com/in/kattera-lakshmi-sai-sree-b00627283/</p>
+      <p>Hackerank:https://www.hackerrank.com/profile/lakshmisaisreek</p>
+      <p>GitHub:https://github.com/saisree587</p>
+      <p>Feel free to contact me for the projects and opportunities</p>
+
+
+    </section>
+
+    <section id="todo" class="todo">
+      <h2>To-Do List App</h2>
+      <input type="text" id="todo-input" placeholder="Enter a task">
+      <button onclick="addTodo()">Add Task</button>
+      <ul id="todo-list" class="todo-list"></ul>
+    </section>
+
+    <section id="products" class="product">
+      <h2>Product Listing</h2>
+      <select id="filter-category">
+        <option value="all">All Categories</option>
+        <option value="tech">Tech</option>
+        <option value="fashion">Fashion</option>
+      </select>
+      <select id="sort-rating">
+        <option value="none">Sort by</option>
+        <option value="rating">Rating</option>
+        <option value="price">Price</option>
+      </select>
+      <div id="product-list" class="product-list"></div>
+    </section>
+  </div>
+
+  <div class="footer">
+    <p>ApexPlanet Software Pvt Ltd</p>
+  </div>
+
+  <script>
+    // To-Do App Logic with Delete
+    function addTodo() {
+      const input = document.getElementById('todo-input');
+      const task = input.value.trim();
+      if (task === '') return;
+
+      let tasks = JSON.parse(localStorage.getItem('tasks') || '[]');
+      tasks.push(task);
+      localStorage.setItem('tasks', JSON.stringify(tasks));
+
+      renderTodos();
+      input.value = '';
+    }
+
+    function deleteTodo(index) {
+      let tasks = JSON.parse(localStorage.getItem('tasks') || '[]');
+      tasks.splice(index, 1);
+      localStorage.setItem('tasks', JSON.stringify(tasks));
+      renderTodos();
+    }
+
+    function renderTodos() {
+      const list = document.getElementById('todo-list');
+      list.innerHTML = '';
+      let tasks = JSON.parse(localStorage.getItem('tasks') || '[]');
+      tasks.forEach((task, index) => {
+        const li = document.createElement('li');
+        li.className = 'todo-item';
+        li.innerHTML = `${task} <button onclick="deleteTodo(${index})">Remove</button>`;
+        list.appendChild(li);
+      });
+    }
+
+    // Load To-Dos on page load
+    window.onload = () => {
+      renderTodos();
+      renderProducts();
+    }
+
+    // Product Listing
+    const products = [
+      { name: "Smartphone", category: "tech", price: 500, rating: 4.5 },
+      { name: "T-Shirt", category: "fashion", price: 25, rating: 4.0 },
+      { name: "Laptop", category: "tech", price: 1200, rating: 4.8 },
+      { name: "Jeans", category: "fashion", price: 40, rating: 4.2 }
+    ];
+
+    function renderProducts() {
+      const category = document.getElementById('filter-category').value;
+      const sort = document.getElementById('sort-rating').value;
+      let filtered = products.filter(p => category === 'all' || p.category === category);
+
+      if (sort === 'rating') filtered.sort((a, b) => b.rating - a.rating);
+      else if (sort === 'price') filtered.sort((a, b) => a.price - b.price);
+
+      const container = document.getElementById('product-list');
+      container.innerHTML = '';
+      filtered.forEach(p => {
+        const item = document.createElement('div');
+        item.className = 'product-item';
+        item.innerHTML = `<strong>${p.name}</strong><br>Category: ${p.category}<br>Price: $${p.price}<br>Rating: ${p.rating}`;
+        container.appendChild(item);
+      });
+    }
+
+    document.getElementById('filter-category').addEventListener('change', renderProducts);
+    document.getElementById('sort-rating').addEventListener('change', renderProducts);
+  </script>
+</body>
+</html>
